@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0ff;
+    color: #fff;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg-button{
+    border: none;
+    background: #fff;
+    position: relative;
+    color: #0ff;
+    margin: 0 auto;
+    border-radius: 30px;
+    display: block;
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+}
+body, #bg-button{
+    transition: all 0.4s ease-in-out;
+}
